@@ -25,4 +25,4 @@ steps:
       dir
       az --version
       az group create --name $(resourceGroupName) --location $(location)
-      az deployment group create --resource-group $(resourceGroupName) --template-file $(templateFile)
+      az deployment group create --resource-group $(resourceGroupName) --template-file $(templateFile) --publisherEmail 'berndtheim@hotmail.com' --publisherName 'Berndt Heim'
