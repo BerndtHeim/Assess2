@@ -8,7 +8,7 @@ variables:
 
   azureServiceConnection: 'assessSC'
   resourceGroupName: 'assessRG'
-  location: 'North Europe'
+  location: 'northeurope'
   templateFile: 'main.bicep'
 pool:
   vmImage: $(vmImageName)
