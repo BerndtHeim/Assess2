@@ -21,6 +21,8 @@ steps:
     scriptLocation: inlineScript
     useGlobalConfig: false
     inlineScript: |
+      ls
+      dir
       az --version
       az group create --name $(resourceGroupName) --location $(location)
       az deployment group create --resource-group $(resourceGroupName) --template-file $(templateFile)
