@@ -1,2 +1,7 @@
 *.pdf
 notes
+/AssessAPI/bin
+/AssessAPI/obj
+/AssessAPI/Properties
+/AssessAPI/.config
+/AssessAPI/.vs
